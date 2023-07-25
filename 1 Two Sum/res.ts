@@ -13,5 +13,5 @@ function TwoSum(nums: number[], target: number): number[] {
 }
 
 const num = [2, 7, 11, 15];
-const tar = 9;
+const tar = 22;
 console.log(TwoSum(num, tar));
