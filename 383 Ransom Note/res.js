@@ -21,6 +21,7 @@ var canConstruct = function(ransomNote, magazine) {
   return true;
 }
 
+
 const ransomNote = "aacd";
 const magazine = "aabbefcd"
 console.log(canConstruct(ransomNote, magazine));
