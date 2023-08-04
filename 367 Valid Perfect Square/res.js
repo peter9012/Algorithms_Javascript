@@ -20,8 +20,9 @@ var isPerfectSquare = function(num) {
           right = mid - 1;
       }
   }
-
   return false;
-
-    
 };
+
+// Example usage:
+console.log(isPerfectSquare(16)); // Output: true
+console.log(isPerfectSquare(14)); // Output: false
