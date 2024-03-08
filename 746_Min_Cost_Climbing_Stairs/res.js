@@ -18,5 +18,6 @@ var minCostClimbingStairs = function(cost) {
     return Math.min(dp[n - 1], dp[n - 2]);
 };
 
+
 const cost = [10, 15, 20];
 console.log(minCostClimbingStairs(cost)); // Output: 15
