@@ -29,6 +29,7 @@ var monotoneIncreasingDigits = function(N) {
         }
     }
     
+    
     // Convert the array of digits back to a number
     return parseInt(digits.join(''));
 };
